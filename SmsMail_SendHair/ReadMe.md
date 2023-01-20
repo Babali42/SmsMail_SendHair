@@ -10,3 +10,13 @@ The Interface Segregation Principle states "that clients should not be forced to
 * D: Dependency Inversion Principle
 
 The Dependency Inversion Principle (DIP) states that high-level modules/classes should not depend on low-level modules/classes. Both should depend upon abstractions. Secondly, abstractions should not depend upon details. Details should depend upon abstractions. 
+
+
+Sender qui envoie le message et qui notifie l'envoie
+    
+Message 
+
+calculer un total
+    lire le total et incrémenter et réécrire le total
+insérer une ligne
+    ++
