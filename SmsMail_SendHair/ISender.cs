@@ -3,5 +3,6 @@
     public interface ISender
     {
         string Send(string text);
+        int GetTotalPrice();
     }
 }

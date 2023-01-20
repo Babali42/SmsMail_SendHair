@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace SmsMail_SendHair
 {
     public class SendHair_App
@@ -9,8 +8,15 @@ namespace SmsMail_SendHair
         {
             _sender = sender;
         }
-        
+
         public string Send(string message)
-            => _sender.Send(message);
+        {
+            return _sender.Send(message);
+        }
+
+        public int GetTotalPrice()
+        {
+            return _sender.GetTotalPrice();
+        }
     }
 }

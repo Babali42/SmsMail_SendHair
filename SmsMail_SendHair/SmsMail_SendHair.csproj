@@ -42,12 +42,16 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="IChargeable.cs" />
         <Compile Include="ISender.cs" />
         <Compile Include="EMailSender.cs" />
         <Compile Include="SendHair_App.cs" />
         <Compile Include="SmsSender.cs" />
         <Compile Include="Tests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="ReadMe.md" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
